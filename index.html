@@ -11,7 +11,13 @@
     <meta property="og:title" content="Usman Mobile Repairing Center">
     <meta property="og:description" content="Modern mobile repair, accessories, electronics, and same-day service in Pattoki.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:image" content="assets/thumbnail-umrc.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Usman Mobile Repairing Center">
+    <meta name="twitter:description" content="Modern mobile repair, accessories, electronics, and same-day service in Pattoki.">
+    <meta name="twitter:image" content="assets/thumbnail-umrc.png">
     <meta name="theme-color" content="#08111f">
     <link rel="icon" type="image/svg+xml" href='data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"%3E%3Crect width="128" height="128" rx="30" fill="%2308111f"/%3E%3Cpath d="M40 30h48a8 8 0 0 1 8 8v52a8 8 0 0 1-8 8H40a8 8 0 0 1-8-8V38a8 8 0 0 1 8-8Z" fill="%230f2138" stroke="%2332e6ff" stroke-width="4"/%3E%3Ccircle cx="64" cy="84" r="5" fill="%2332e6ff"/%3E%3Cpath d="M57 14h14" stroke="%23aef7ff" stroke-width="6" stroke-linecap="round"/%3E%3Cpath d="M64 44l-10 17h8l-5 19 17-24h-8l4-12Z" fill="%23ffc857"/%3E%3C/svg%3E'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1173,24 +1179,6 @@
         }
 
         @media (max-width: 860px) {
-            :root {
-                --nav-height: 72px;
-            }
-
-            .brand-mark {
-                width: 48px;
-                height: 48px;
-                flex-basis: 48px;
-            }
-
-            .brand-copy strong {
-                font-size: 0.92rem;
-            }
-
-            .brand-copy span {
-                font-size: 0.78rem;
-            }
-
             .menu-toggle {
                 display: inline-flex;
             }
@@ -1235,98 +1223,11 @@
             .hero-grid {
                 padding: 52px 0 72px;
             }
-
-            .hero-copy {
-                max-width: 100%;
-            }
-
-            .hero-copy p {
-                max-width: 100%;
-            }
-
-            .hero-dashboard,
-            .video-card,
-            .price-card,
-            .review-card,
-            .contact-card,
-            .card,
-            .why-card,
-            .process-card,
-            .trusted-card {
-                padding: 22px;
-            }
         }
 
         @media (max-width: 640px) {
             .section {
-                padding: 68px 0;
-            }
-
-            .container {
-                width: min(100% - 20px, 1240px);
-            }
-
-            .nav {
-                min-height: 68px;
-            }
-
-            .brand {
-                gap: 10px;
-                max-width: calc(100% - 108px);
-            }
-
-            .brand-mark {
-                width: 42px;
-                height: 42px;
-                flex-basis: 42px;
-                border-radius: 14px;
-                font-size: 1.05rem;
-            }
-
-            .brand-copy strong {
-                font-size: 0.88rem;
-                line-height: 1.15;
-            }
-
-            .brand-copy span {
-                font-size: 0.74rem;
-                line-height: 1.2;
-            }
-
-            .theme-toggle,
-            .menu-toggle {
-                min-height: 42px;
-                width: 42px;
-                padding: 0;
-            }
-
-            h1 {
-                font-size: clamp(2.2rem, 10vw, 3.2rem);
-                line-height: 1.02;
-            }
-
-            h2 {
-                font-size: clamp(1.7rem, 8vw, 2.3rem);
-                line-height: 1.06;
-            }
-
-            h3 {
-                line-height: 1.15;
-            }
-
-            p {
-                line-height: 1.6;
-            }
-
-            .eyebrow {
-                padding: 9px 14px;
-                font-size: 0.7rem;
-                letter-spacing: 0.1em;
-            }
-
-            .section-heading {
-                gap: 14px;
-                margin-bottom: 30px;
+                padding: 76px 0;
             }
 
             .trusted-bar,
@@ -1344,89 +1245,6 @@
             .dashboard-stats,
             .mini-panel-grid {
                 grid-template-columns: 1fr;
-            }
-
-            .hero-grid {
-                gap: 20px;
-                padding: 34px 0 56px;
-            }
-
-            .hero-copy p,
-            .typing-line {
-                font-size: 0.95rem;
-            }
-
-            .hero-points {
-                gap: 10px;
-            }
-
-            .hero-points span,
-            .info-chip {
-                width: 100%;
-                justify-content: flex-start;
-                padding: 11px 14px;
-                font-size: 0.9rem;
-            }
-
-            .showcase-image {
-                aspect-ratio: 4 / 3;
-                margin-bottom: 14px;
-            }
-
-            .hero-dashboard,
-            .video-card,
-            .price-card,
-            .review-card,
-            .contact-card,
-            .card,
-            .why-card,
-            .process-card,
-            .trusted-card,
-            .compare-card {
-                padding: 18px;
-                border-radius: 22px;
-            }
-
-            .media-copy {
-                padding: 18px;
-            }
-
-            .split-band {
-                padding: 20px;
-                gap: 18px;
-            }
-
-            .compare-pair button {
-                border-radius: 16px;
-            }
-
-            .review-controls {
-                margin-top: 18px;
-            }
-
-            .review-controls button {
-                width: 42px;
-                height: 42px;
-            }
-
-            .contact-row,
-            .hours-grid div {
-                padding: 14px;
-            }
-
-            .contact-row {
-                align-items: flex-start;
-            }
-
-            .hours-grid div {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 8px;
-            }
-
-            .map-frame,
-            .map-frame iframe {
-                min-height: 280px;
             }
 
             .hero-actions,
@@ -1449,87 +1267,6 @@
                 width: 56px;
                 height: 56px;
                 border-radius: 18px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .section {
-                padding: 60px 0;
-            }
-
-            .container {
-                width: min(100% - 16px, 1240px);
-            }
-
-            .nav {
-                gap: 10px;
-            }
-
-            .brand {
-                max-width: calc(100% - 96px);
-            }
-
-            .brand-copy span {
-                display: none;
-            }
-
-            .nav-links {
-                top: calc(100% + 10px);
-                padding: 12px;
-                border-radius: 20px;
-            }
-
-            .hero-grid {
-                padding: 28px 0 48px;
-            }
-
-            .hero-actions,
-            .contact-actions {
-                margin-top: 22px;
-                gap: 10px;
-            }
-
-            .btn {
-                min-height: 50px;
-                padding: 0 18px;
-                font-size: 0.94rem;
-            }
-
-            .typing-line {
-                min-height: 28px;
-            }
-
-            .trusted-card i,
-            .icon-badge,
-            .process-number {
-                width: 50px;
-                height: 50px;
-                margin-bottom: 14px;
-            }
-
-            .socials {
-                gap: 10px;
-            }
-
-            .socials a {
-                width: 44px;
-                height: 44px;
-            }
-
-            .modal {
-                padding: 12px;
-            }
-
-            .modal-dialog {
-                padding: 12px;
-                border-radius: 20px;
-            }
-
-            .modal-close {
-                top: 10px;
-                right: 10px;
-                width: 38px;
-                height: 38px;
             }
         }
 
